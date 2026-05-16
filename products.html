@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products | DigvijayCart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="premium.css">
+</head>
+<body>
+        <header>
+        <div class="top-header">
+            
+            <div style="display:flex; flex-direction:column; align-items:flex-start;">
+                <a href="index.html" class="logo">Digvijay<span>Cart</span></a>
+                <a href="about.html#team" class="team-badge">Meet the Creators ✨</a>
+            </div>
+            <div class="search-container">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="global-search" class="search-input" placeholder="Search for Products, Brands and More">
+            </div>
+            <div class="header-actions">
+                <button class="action-btn" onclick="window.location.href='login.html'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> Login</button>
+                <div class="more-dropdown-container" style="position:relative; display:inline-block;">
+                    <button class="action-btn">More <span style="font-size: 0.8rem;">▼</span></button>
+                    <div class="more-dropdown" style="display:none; position:absolute; top:100%; left:0; background:var(--card-bg); border-radius:8px; padding:0.5rem 0; min-width:180px; box-shadow:0 10px 20px rgba(0,0,0,0.5); z-index:100;">
+                        <a href="about.html#team" style="display:block; padding:0.8rem 1.5rem; color:var(--text-color); text-decoration:none; font-size:0.9rem;">Notification Preferences</a>
+                        <a href="help.html" style="display:block; padding:0.8rem 1.5rem; color:var(--text-color); text-decoration:none; font-size:0.9rem;">24x7 Customer Care</a>
+                        <a href="about.html#team" style="display:block; padding:0.8rem 1.5rem; color:var(--text-color); text-decoration:none; font-size:0.9rem;">Advertise</a>
+                        <a href="about.html#team" style="display:block; padding:0.8rem 1.5rem; color:var(--text-color); text-decoration:none; font-size:0.9rem;">Download App</a>
+                    </div>
+                </div>
+                <button class="cart-btn" onclick="window.location.href='cart.html'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px;"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Cart (<span class="cart-count">0</span>)</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="category-icon-bar">
+            <a href="index.html" class="cat-icon-item"><span class="icon">🌟</span><span>For You</span></a>
+            <a href="category.html?cat=fashion" class="cat-icon-item"><span class="icon">👕</span><span>Fashion</span></a>
+            <a href="category.html?cat=mobiles" class="cat-icon-item"><span class="icon">📱</span><span>Mobiles</span></a>
+            <a href="category.html?cat=makeup" class="cat-icon-item"><span class="icon">💄</span><span>Beauty</span></a>
+            <a href="category.html?cat=electronics" class="cat-icon-item"><span class="icon">💻</span><span>Electronics</span></a>
+            <a href="category.html?cat=home" class="cat-icon-item"><span class="icon">🛋️</span><span>Home</span></a>
+            <a href="category.html?cat=appliances" class="cat-icon-item"><span class="icon">📺</span><span>Appliances</span></a>
+            <a href="category.html?cat=baby" class="cat-icon-item"><span class="icon">🧸</span><span>Toys, Baby</span></a>
+            <a href="category.html?cat=health" class="cat-icon-item"><span class="icon">💊</span><span>Health</span></a>
+            <a href="category.html?cat=auto" class="cat-icon-item"><span class="icon">🚗</span><span>Auto Acc</span></a>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <h1>All Products</h1>
+    </div>
+
+    <section class="section">
+        <div class="product-grid" id="all-products-grid">
+            <!-- Dynamically populated via JS -->
+        </div>
+    </section>
+
+    
+    <footer class="expanded-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>Digvijay<span>Cart</span></h3>
+                <p>Your premium destination for all things fashion, electronics, and lifestyle. Experience the best quality and service.</p>
+                <div class="social-links">
+                    <a href="about.html#team">FB</a>
+                    <a href="about.html#team">TW</a>
+                    <a href="about.html#team">IG</a>
+                    <a href="about.html#team">YT</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="products.html">Shop All</a>
+                <a href="categories.html">Categories</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h3>Customer Care</h3>
+                <a href="help.html">Help Center</a>
+                <a href="track.html">Track Order</a>
+                <a href="returns.html">Returns & Refunds</a>
+                <a href="faq.html">FAQs</a>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get the latest updates and exclusive offers.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); showToast('Subscribed to newsletter!');">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 DigvijayCart. All rights reserved.</p>
+            <div class="payment-icons">
+                <span>💳 Visa</span>
+                <span>💳 Mastercard</span>
+                <span>📱 UPI</span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="premium.js"></script>
+</body>
+</html>
