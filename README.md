@@ -18,7 +18,7 @@ A premium, highly responsive E-Commerce platform built entirely with modern HTML
 ## 👨‍💻 Meet the Creators
 - **Abhay Yadav** - Founder & CEO
 - **Dipoo Saini** - Co-Founder
-- **Dedicated Team**: Anoop Chaudhary, Aditya Kumar, Anay Jaiswal, and Deepak Gupta.
+- **Dedicated Labours**: Anoop Chaudhary, Aditya Kumar, Anay Jaiswal, and Deepak Gupta.
 
 ---
 *Developed in 2026. Bringing the future of personal commerce to your screen.*
